@@ -152,7 +152,7 @@ void loop() {
       //Initializing an HTTPS communication using the secure client
       if (https.begin(*client, url)) {  // HTTPS
         https.addHeader("Content-Type", "application/json");
-        https.addHeader("Authorization", "Bearer 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");
+        https.addHeader("Authorization", "Bearer your api key here");
         // start connection and send HTTP header
         String maxt = "88";
         https.setTimeout(10000);
